@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 20px;
+}
+header{
+    background-color: #fad3ad;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px ;
+}
+.logo{
+    text-decoration: none;
+    color: rgb(112, 63, 120);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a{
+    text-decoration: none;
+    color:rgb(112, 59, 193) ;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.navigation a:hover{
+    color:rgb(84, 11, 54);
+
+}
+
+.section{
+    padding: 100px 200px ;
+
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/flower.jpg) no-repeat;
+    background-size: cover;
+    
+    background-attachment:fixed ;
+}
+.main h2{
+    color: blueviolet;
+    font-size: 1.4em;
+    font-weight: 500;
+
+}
+
+.main h2 span{
+    display:inline-block;
+    margin-top:10px ;
+  
+    color: rgb(96, 96, 234);
+    font-size: 3em;
+    font-weight: 300;
+}
+.main p{
+    color: #ac518f;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.main h1 {
+    font-size: 15px;
+    color: #20bcd5;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+ 
+
+
+.skillsSection {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+.skillsSection h3 span{
+    color: blueviolet;
+    font-size: 30px;
+    font-weight: 300;
+    display:inline-block;
+    margin-left: 40%;
+    margin-right: 50%;
+    border: 4px dashed #20bcd5;
+    padding: 10px;
+}
+li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+progress {
+    width: 70%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #efefef;
+}
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+progress::-webkit-progress-value {
+    background: #3fb6b2;
+} 
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
+}
+footer{
+    padding: 100px;
+    background-color: #fad3ad;
+}
+
+
+.social-icons a img{
+    padding-right: 30px;
+    align-items: center;
+
+    
+}
+
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
+}
+h4{
+    color: blueviolet;
+    font-size: 30px;
+    font-weight: 300;
+    display:inline-block;
+    border: 4px dashed #20bcd5;
+    margin-left: 40%;
+    margin-right: 30%;
+
+}
